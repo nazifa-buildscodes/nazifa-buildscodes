@@ -1,0 +1,485 @@
+<svg
+  width="900"
+  height="210"
+  viewBox="0 0 900 210"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+
+    <!-- NAME GRADIENT 1 -->
+    <linearGradient id="nameGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#E879F9"/>
+    </linearGradient>
+
+    <!-- NAME GRADIENT 2 -->
+    <linearGradient id="nameGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <!-- NAME GRADIENT 3 -->
+    <linearGradient id="nameGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="50%" stop-color="#FB7185"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- SOFT GLOW -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+
+      <feGaussianBlur
+        stdDeviation="5"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <style>
+
+      /* =========================
+         NAME
+      ========================== */
+
+      .name {
+
+        font-family:
+          Arial,
+          Helvetica,
+          sans-serif;
+
+        font-size: 54px;
+
+        font-weight: 700;
+
+        letter-spacing: 1px;
+
+        text-anchor: middle;
+
+        animation:
+          nameColor 12s ease-in-out infinite;
+
+      }
+
+
+      /* =========================
+         TITLE
+      ========================== */
+
+      .title {
+
+        font-family:
+          Arial,
+          Helvetica,
+          sans-serif;
+
+        font-size: 25px;
+
+        font-weight: 600;
+
+        font-style: italic;
+
+        letter-spacing: 0.6px;
+
+        text-anchor: middle;
+
+        fill: #F3F4F6;
+
+      }
+
+
+      /* =========================
+         TITLE ANIMATIONS
+      ========================== */
+
+      .title1 {
+
+        animation:
+          titleOne 16s ease-in-out infinite;
+
+      }
+
+
+      .title2 {
+
+        animation:
+          titleTwo 16s ease-in-out infinite;
+
+      }
+
+
+      .title3 {
+
+        animation:
+          titleThree 16s ease-in-out infinite;
+
+      }
+
+
+      .title4 {
+
+        animation:
+          titleFour 16s ease-in-out infinite;
+
+      }
+
+
+      /* =========================
+         NAME COLOR ANIMATION
+      ========================== */
+
+      @keyframes nameColor {
+
+        0%,
+        28% {
+
+          fill: url(#nameGradient1);
+
+        }
+
+        33%,
+        61% {
+
+          fill: url(#nameGradient2);
+
+        }
+
+        66%,
+        94% {
+
+          fill: url(#nameGradient3);
+
+        }
+
+        100% {
+
+          fill: url(#nameGradient1);
+
+        }
+
+      }
+
+
+      /* =========================
+         TITLE 1
+      ========================== */
+
+      @keyframes titleOne {
+
+        0% {
+
+          opacity: 0;
+
+          transform:
+            translateY(12px);
+
+        }
+
+        5% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        22% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        27% {
+
+          opacity: 0;
+
+          transform:
+            translateY(-10px);
+
+        }
+
+        100% {
+
+          opacity: 0;
+
+          transform:
+            translateY(-10px);
+
+        }
+
+      }
+
+
+      /* =========================
+         TITLE 2
+      ========================== */
+
+      @keyframes titleTwo {
+
+        0%,
+        22% {
+
+          opacity: 0;
+
+          transform:
+            translateY(12px);
+
+        }
+
+        27% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        44% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        49% {
+
+          opacity: 0;
+
+          transform:
+            translateY(-10px);
+
+        }
+
+        100% {
+
+          opacity: 0;
+
+          transform:
+            translateY(-10px);
+
+        }
+
+      }
+
+
+      /* =========================
+         TITLE 3
+      ========================== */
+
+      @keyframes titleThree {
+
+        0%,
+        44% {
+
+          opacity: 0;
+
+          transform:
+            translateY(12px);
+
+        }
+
+        49% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        66% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        71% {
+
+          opacity: 0;
+
+          transform:
+            translateY(-10px);
+
+        }
+
+        100% {
+
+          opacity: 0;
+
+          transform:
+            translateY(-10px);
+
+        }
+
+      }
+
+
+      /* =========================
+         TITLE 4
+      ========================== */
+
+      @keyframes titleFour {
+
+        0%,
+        66% {
+
+          opacity: 0;
+
+          transform:
+            translateY(12px);
+
+        }
+
+        71% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        94% {
+
+          opacity: 1;
+
+          transform:
+            translateY(0);
+
+        }
+
+        100% {
+
+          opacity: 0;
+
+          transform:
+            translateY(-10px);
+
+        }
+
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- =========================
+       TOP DECORATION
+  ========================== -->
+
+  <circle
+    cx="450"
+    cy="28"
+    r="3.5"
+    fill="#38BDF8"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="0.2;1;0.2"
+      dur="2.5s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <!-- =========================
+       MAIN NAME
+  ========================== -->
+
+  <text
+    x="450"
+    y="105"
+    class="name"
+    filter="url(#softGlow)"
+  >
+
+    ✨ Nazifa Nowsin
+
+  </text>
+
+
+  <!-- =========================
+       ANIMATED TITLES
+  ========================== -->
+
+  <text
+    x="450"
+    y="155"
+    class="title title1"
+  >
+
+    Enthusiastic Web Developer
+
+  </text>
+
+
+  <text
+    x="450"
+    y="155"
+    class="title title2"
+  >
+
+    MERN Stack Developer
+
+  </text>
+
+
+  <text
+    x="450"
+    y="155"
+    class="title title3"
+  >
+
+    Full Stack Developer
+
+  </text>
+
+
+  <text
+    x="450"
+    y="155"
+    class="title title4"
+  >
+
+    Problem Solver • Continuous Learner
+
+  </text>
+
+
+  <!-- =========================
+       BOTTOM DECORATION
+  ========================== -->
+
+  <line
+    x1="350"
+    y1="180"
+    x2="550"
+    y2="180"
+    stroke="#374151"
+    stroke-width="1"
+    opacity="0.5"
+  />
+
+</svg>
