@@ -7,7 +7,6 @@
 />
 
 
-
 </div>
 
 <div align="center">
@@ -52,6 +51,37 @@ Currently, I'm focusing on the **MERN Stack** while expanding my knowledge of mo
 <div align="center">
 
 **MERN Stack** · **Advanced JavaScript** · **TypeScript** · **React** · **Next.js** · **Node.js** · **Express.js** · **REST APIs** · **Database Integration**
+
+</div>
+
+---
+
+
+## 🌐 Portfolio
+
+<div align="center">
+
+<h3>✨ My Portfolio — Coming Soon</h3>
+
+<p>
+  A personal space where I’ll showcase my projects, skills,
+  experiments and journey as a developer.
+</p>
+
+<br>
+
+<a href="#">
+  <img
+    src="https://img.shields.io/badge/🚀%20EXPLORE%20PORTFOLIO-COMING%20SOON-6366F1?style=for-the-badge"
+    alt="Portfolio Coming Soon"
+  />
+</a>
+
+<br>
+
+<i>
+Currently building something I'm proud of. Stay tuned!
+</i>
 
 </div>
 
@@ -110,21 +140,31 @@ it's about learning how to think, solve and build with purpose.
 
 ---
 
+
 ## 📊 GitHub
 
 <div align="center">
 
-<img
-  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnazifa-buildscodes&query=%24.public_repos&label=Public%20Repositories&style=for-the-badge&logo=github"
-  alt="Public Repositories"
-/>
+<a href="https://github.com/nazifa-buildscodes">
+  <img
+    src="https://img.shields.io/badge/GitHub-Visit%20Profile-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub Profile"
+  />
+</a>
 
-&nbsp;
+&nbsp;&nbsp;
 
-<img
-  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnazifa-buildscodes&query=%24.followers&label=Followers&style=for-the-badge&logo=github"
-  alt="GitHub Followers"
-/>
+<a href="https://github.com/nazifa-buildscodes?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/Repositories-View%20All-6366F1?style=for-the-badge&logo=github&logoColor=white"
+    alt="View All Repositories"
+  />
+</a>
+
+
+<i><br>
+Explore my GitHub profile, learning journey, experiments and development work.
+</i>
 
 </div>
 
@@ -143,24 +183,6 @@ it's about learning how to think, solve and build with purpose.
 
 ---
 
-## 📦 Repositories
-
-<div align="center">
-
-<a href="https://github.com/nazifa-buildscodes?tab=repositories">
-  <img
-    src="https://img.shields.io/badge/📦%20VIEW%20ALL%20REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="View All Repositories"
-  />
-</a>
-
-
-
-<i>Explore my learning journey, experiments and development work.</i>
-
-</div>
-
----
 
 ## 🤝 Let's Connect
 
