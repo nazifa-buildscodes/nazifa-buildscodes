@@ -1,6 +1,18 @@
 <div align="center">
 
 <img
+  src="https://raw.githubusercontent.com/nazifa-buildscodes/nazifa-buildscodes/main/profile-banner.svg"
+  width="100%"
+  alt="Nazifa Nowsin - Developer Banner"
+/>
+
+
+
+</div>
+
+<div align="center">
+
+<img
   src="https://raw.githubusercontent.com/nazifa-buildscodes/nazifa-buildscodes/main/name-animation.svg"
   width="100%"
   alt="Nazifa Nowsin"
