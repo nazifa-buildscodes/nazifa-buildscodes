@@ -1,0 +1,307 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Main Gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.45" stop-color="#101B3D"/>
+      <stop offset="1" stop-color="#190B2E"/>
+    </linearGradient>
+
+    <!-- Name Gradient -->
+    <linearGradient id="nameGradient" x1="450" y1="120" x2="900" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.45" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+
+  </defs>
+
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+
+
+  <!-- Decorative Glow -->
+  <circle cx="1050" cy="70" r="120" fill="#7C3AED" opacity="0.18" filter="url(#softGlow)"/>
+  <circle cx="150" cy="300" r="100" fill="#06B6D4" opacity="0.14" filter="url(#softGlow)"/>
+
+
+  <!-- Decorative Grid -->
+  <path d="M0 280H1200" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <path d="M0 300H1200" stroke="#FFFFFF" stroke-opacity="0.035"/>
+  <path d="M100 0V360" stroke="#FFFFFF" stroke-opacity="0.025"/>
+  <path d="M1100 0V360" stroke="#FFFFFF" stroke-opacity="0.025"/>
+
+
+  <!-- Top Accent Line -->
+  <rect x="55" y="35" width="1090" height="2" rx="1" fill="url(#accent)" opacity="0.8"/>
+
+
+  <!-- Code Symbol -->
+  <g transform="translate(70 75)" filter="url(#glow)">
+
+    <text
+      x="0"
+      y="55"
+      font-family="monospace"
+      font-size="64"
+      font-weight="700"
+      fill="#22D3EE"
+    >&lt;/&gt;</text>
+
+  </g>
+
+
+  <!-- Hello World -->
+  <text
+    x="185"
+    y="105"
+    font-family="monospace"
+    font-size="22"
+    font-weight="600"
+    fill="#94A3B8"
+  >
+    &lt;Hello, World! /&gt;
+  </text>
+
+
+  <!-- Main Name -->
+  <text
+    x="185"
+    y="165"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="48"
+    font-weight="800"
+    fill="url(#nameGradient)"
+  >
+    Nazifa Nowsin
+  </text>
+
+
+  <!-- Developer Title -->
+  <text
+    x="188"
+    y="202"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="19"
+    font-weight="500"
+    fill="#CBD5E1"
+  >
+    Web Developer • MERN Stack Learner • Problem Solver
+  </text>
+
+
+  <!-- Small Code Line -->
+  <text
+    x="188"
+    y="238"
+    font-family="monospace"
+    font-size="14"
+    fill="#64748B"
+  >
+    &lt;code&gt; Learn • Build • Improve • Repeat &lt;/code&gt;
+  </text>
+
+
+  <!-- Tech Stack Pills -->
+
+  <g transform="translate(188 270)">
+
+    <!-- JavaScript -->
+    <rect width="105" height="34" rx="17" fill="#F7DF1E" fill-opacity="0.14" stroke="#F7DF1E" stroke-opacity="0.5"/>
+    <text x="52" y="22" text-anchor="middle"
+      font-family="Arial" font-size="13" font-weight="700" fill="#FDE68A">
+      JavaScript
+    </text>
+
+
+    <!-- React -->
+    <rect x="115" width="80" height="34" rx="17" fill="#61DAFB" fill-opacity="0.12" stroke="#61DAFB" stroke-opacity="0.5"/>
+    <text x="155" y="22" text-anchor="middle"
+      font-family="Arial" font-size="13" font-weight="700" fill="#67E8F9">
+      React
+    </text>
+
+
+    <!-- Node -->
+    <rect x="205" width="82" height="34" rx="17" fill="#22C55E" fill-opacity="0.12" stroke="#22C55E" stroke-opacity="0.5"/>
+    <text x="246" y="22" text-anchor="middle"
+      font-family="Arial" font-size="13" font-weight="700" fill="#86EFAC">
+      Node.js
+    </text>
+
+
+    <!-- MongoDB -->
+    <rect x="297" width="100" height="34" rx="17" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.5"/>
+    <text x="347" y="22" text-anchor="middle"
+      font-family="Arial" font-size="13" font-weight="700" fill="#6EE7B7">
+      MongoDB
+    </text>
+
+
+    <!-- TypeScript -->
+    <rect x="407" width="105" height="34" rx="17" fill="#3178C6" fill-opacity="0.14" stroke="#60A5FA" stroke-opacity="0.5"/>
+    <text x="459" y="22" text-anchor="middle"
+      font-family="Arial" font-size="13" font-weight="700" fill="#93C5FD">
+      TypeScript
+    </text>
+
+  </g>
+
+
+  <!-- Right Developer Card -->
+  <g transform="translate(825 70)">
+
+    <!-- Card -->
+    <rect
+      width="300"
+      height="205"
+      rx="20"
+      fill="#020617"
+      fill-opacity="0.65"
+      stroke="url(#accent)"
+      stroke-opacity="0.55"
+    />
+
+
+    <!-- Window Header -->
+    <circle cx="25" cy="25" r="5" fill="#F87171"/>
+    <circle cx="43" cy="25" r="5" fill="#FACC15"/>
+    <circle cx="61" cy="25" r="5" fill="#4ADE80"/>
+
+
+    <!-- Code -->
+    <text x="25" y="65"
+      font-family="monospace"
+      font-size="13"
+      fill="#64748B">
+      const developer =
+    </text>
+
+    <text x="25" y="91"
+      font-family="monospace"
+      font-size="13"
+      fill="#22D3EE">
+      {" "}
+    </text>
+
+    <text x="25" y="117"
+      font-family="monospace"
+      font-size="13"
+      fill="#A78BFA">
+      name:
+    </text>
+
+    <text x="90" y="117"
+      font-family="monospace"
+      font-size="13"
+      fill="#F9A8D4">
+      "Nazifa"
+    </text>
+
+    <text x="25" y="143"
+      font-family="monospace"
+      font-size="13"
+      fill="#A78BFA">
+      stack:
+    </text>
+
+    <text x="85" y="143"
+      font-family="monospace"
+      font-size="13"
+      fill="#86EFAC">
+      "MERN"
+    </text>
+
+    <text x="25" y="169"
+      font-family="monospace"
+      font-size="13"
+      fill="#64748B">
+      passion:
+    </text>
+
+    <text x="95" y="169"
+      font-family="monospace"
+      font-size="13"
+      fill="#FDE68A">
+      "Building"
+    </text>
+
+    <text x="25" y="190"
+      font-family="monospace"
+      font-size="13"
+      fill="#64748B">
+      };
+    </text>
+
+  </g>
+
+
+  <!-- Social Icons / Links Visual -->
+
+  <g transform="translate(845 300)">
+
+    <!-- GitHub -->
+    <circle cx="20" cy="20" r="18" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.2"/>
+    <text x="20" y="26"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="14"
+      font-weight="700"
+      fill="#FFFFFF">
+      GH
+    </text>
+
+
+    <!-- LinkedIn -->
+    <circle cx="75" cy="20" r="18" fill="#0A66C2" fill-opacity="0.2" stroke="#60A5FA" stroke-opacity="0.5"/>
+    <text x="75" y="26"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="13"
+      font-weight="700"
+      fill="#93C5FD">
+      in
+    </text>
+
+
+    <!-- Email -->
+    <circle cx="130" cy="20" r="18" fill="#EA4335" fill-opacity="0.16" stroke="#FCA5A5" stroke-opacity="0.5"/>
+    <text x="130" y="26"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="13"
+      font-weight="700"
+      fill="#FCA5A5">
+      @
+    </text>
+
+  </g>
+
+
+  <!-- Bottom Accent -->
+  <rect x="55" y="325" width="1090" height="1" rx="1" fill="url(#accent)" opacity="0.5"/>
+
+</svg>
